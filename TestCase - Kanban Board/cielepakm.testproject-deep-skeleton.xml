@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="" name="" >
+<node_order><![CDATA[]]></node_order>
+<details><![CDATA[]]></details> 
+<testsuite id="62808" name="Wyświetlanie podstawowej wersji aplikacji “Kanban Board”" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]></details> 
+</testsuite><testsuite id="62858" name="Dodawanie nowej kolumny" >
+<node_order><![CDATA[2]]></node_order>
+<details><![CDATA[]]></details> 
+</testsuite><testsuite id="62879" name="Dodawanie nowych zadań" >
+<node_order><![CDATA[3]]></node_order>
+<details><![CDATA[]]></details> 
+</testsuite><testsuite id="62924" name="Przenoszenie za pomocą “drag&amp;drop”" >
+<node_order><![CDATA[4]]></node_order>
+<details><![CDATA[]]></details> 
+</testsuite><testsuite id="62945" name="Brak ograniczenia w liczbie znaków, kolumn czy zadań" >
+<node_order><![CDATA[5]]></node_order>
+<details><![CDATA[]]></details> 
+</testsuite><testsuite id="63029" name="Działanie plików cookies" >
+<node_order><![CDATA[6]]></node_order>
+<details><![CDATA[]]></details> 
+</testsuite><testsuite id="63695" name="Responsywność strony" >
+<node_order><![CDATA[7]]></node_order>
+<details><![CDATA[]]></details> 
+</testsuite></testsuite>

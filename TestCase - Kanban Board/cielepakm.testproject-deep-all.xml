@@ -1,0 +1,1426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="" name="" >
+<node_order><![CDATA[]]></node_order>
+<details><![CDATA[]]></details> 
+<testsuite id="62808" name="Wyświetlanie podstawowej wersji aplikacji “Kanban Board”" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="62818" name="Czy strona uruchamia się pod domyślnym linkiem">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[9]]></externalid>
+	<fullexternalid><![CDATA[MC-7-9]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie czy strona uruchamia się na podanym linku: https://kanbanboard.pl/</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Strona pokazuje się poprawnie pod konkretnym linkiem</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62825" name="Czy strona wyświetla w background widok tablicy korkowej">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[10]]></externalid>
+	<fullexternalid><![CDATA[MC-7-10]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Czy strona pokazuje w backround jako tablice korkową</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Strona pokazuje poprawnie backround jako tablice korkową</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62830" name="Czy wyświetlają się 3 kolumny o nazwach “to do” / “doing” / “done”">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[11]]></externalid>
+	<fullexternalid><![CDATA[MC-7-11]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie wyświetlania się trzech kolumn &ldquo;to do&rdquo; / &ldquo;doing&rdquo; / &ldquo;done&rdquo;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Poprawne wyświetlenie się trzach kolumn o nazwach &ldquo;to do&rdquo; / &ldquo;doing&rdquo; / &ldquo;done&rdquo;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62834" name="Czy wyświetla się w pierwszej kolumnie “to do” zadanie “new task”">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[12]]></externalid>
+	<fullexternalid><![CDATA[MC-7-12]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie wyświetlania się zadania &quot;new task&quot; w kolumnie &quot;to do&quot;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Wyświetlenie się zadania &quot;new task&quot; w kolumnie &quot;to do&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62840" name="Czy wyświetla się button “add new column” dodający nową kolumnę">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[13]]></externalid>
+	<fullexternalid><![CDATA[MC-7-13]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie wyświetlania się button dodawania nowej kolumny &quot;add new column&quot;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Poprawne wyświetlenie się botton &quot;add new column&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62843" name="Czy wyświetla się  botton “add task” w kolumnach, tworzący nowe zadanie">
+	<node_order><![CDATA[1005]]></node_order>
+	<externalid><![CDATA[14]]></externalid>
+	<fullexternalid><![CDATA[MC-7-14]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie czy wyświetlania się botton dodania zadania &quot;add task&quot; w kolumnach</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Wyświetlenie się botton dodania zadania &quot;add task&quot; w kolumnach</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62849" name="Nazwy kolumn domyślnie są nazwane “to do” / “doing” / “done”">
+	<node_order><![CDATA[1006]]></node_order>
+	<externalid><![CDATA[15]]></externalid>
+	<fullexternalid><![CDATA[MC-7-15]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie poprawności wyświetlania się nazw kolumn &ldquo;to do&rdquo; / &ldquo;doing&rdquo; / &ldquo;done&rdquo;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Nazwy kolumn wyświetlają się poprawnie &ldquo;to do&rdquo; / &ldquo;doing&rdquo; / &ldquo;done&rdquo;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62852" name="Nazwy domyślnych button są nazwane “new task” i “add new column”">
+	<node_order><![CDATA[1007]]></node_order>
+	<externalid><![CDATA[16]]></externalid>
+	<fullexternalid><![CDATA[MC-7-16]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie poprawności wyświetlania się nazw przycisk&oacute;w &ldquo;new task&rdquo; i &ldquo;add new column&rdquo;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Poprawne wyświetlenie się nazw przycisk&oacute;w &ldquo;new task&rdquo; i &ldquo;add new column&rdquo;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="62858" name="Dodawanie nowej kolumny" >
+<node_order><![CDATA[2]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="62859" name="Dodanie nowej kolumny - &quot;tak bywa&quot;">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[17]]></externalid>
+	<fullexternalid><![CDATA[MC-7-17]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie poprawności tworzenia kolumny uzupełniając pole tekstowe - &quot;tak bywa&quot;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klika button &quot;ADD NEW COLUMN&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Uzupełnienie pola tekstowego - &quot;tak bywa&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Klika button &quot;OK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Wyświetlenie się kolumny z poprawną podaną nazwą &quot;tak bywa&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62864" name="Dodanie nowej kolumny bez nazwy">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[18]]></externalid>
+	<fullexternalid><![CDATA[MC-7-18]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzamy czy przy utworzeniu kolumny z pustą nazwą stworzy się kolumna z nazwą &quot;Kolumna&quot;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klika button &quot;ADD NEW COLUMN&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Pole tekstowe pozostawiamy puste</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Klika button &quot;OK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Wyświetla się kolumna o nazwie &quot;Kolumna&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62869" name="Anulowanie tworzenia nowej kolumny">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[19]]></externalid>
+	<fullexternalid><![CDATA[MC-7-19]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie czy nie utworzy się kolumna po kliknięciu button &ldquo;anuluj&rdquo;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klika button &quot;ADD NEW COLUMN&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>klikamy button &ldquo;anuluj&rdquo;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Kolumna poprawnie się nie utworzyła</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62874" name="Sprawdzanie gdzie utworzy się nowa kolumna">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[20]]></externalid>
+	<fullexternalid><![CDATA[MC-7-20]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie poprawnego wyświetlania się kolumny w konkretnym miejscu</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klika button &quot;ADD NEW COLUMN&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wpisujemy nazwę &quot;kontam&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Klika button &quot;OK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Kolumna wyświetliła się w poprawnym miejscu na stronie</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="62879" name="Dodawanie nowych zadań" >
+<node_order><![CDATA[3]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="62882" name="Dotanie zadania w kolumnie &quot;doing&quot; o nazwie &quot;taklom&quot;">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[21]]></externalid>
+	<fullexternalid><![CDATA[MC-7-21]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzamy poprawność tworzenia się zadania w kolumnie</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klikamy button &quot;add task&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wpisujemy nazwę &quot;taklom&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>klikamy button &quot;OK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Zadanie wyświetliło się poprawnie</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62895" name="Dodanie nowego zadanie bez nazwy">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[22]]></externalid>
+	<fullexternalid><![CDATA[MC-7-22]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzamy tworzenie pustego zadania</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klika button &quot;ADD TASK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Pole tekstowe zostawiamy puste</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Klika button &quot;OK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Zananie poprawnie wyświetliło się puste</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62905" name="Sprawdzanie gdzie nowe zadanie się utworzy">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[23]]></externalid>
+	<fullexternalid><![CDATA[MC-7-23]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie czy zadanie wyświetli się w poprawnym miejscu</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klika button &quot;ADD TASK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wpisujemy nazwę &quot;konmala&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Klikamy button &quot;OK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Zadanie wyświetla sie w poprawnym miejscu</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62914" name="Anulowanie tworzenia nowego zadania">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[24]]></externalid>
+	<fullexternalid><![CDATA[MC-7-24]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie czy zadanie się utworzy pomimo anulowania operacji</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klika button &quot;ADD TASK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>klikamy button &#39;&#39;anuluj&#39;&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Zananie poprawnie sie nie utworzyło</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="62924" name="Przenoszenie za pomocą “drag&amp;drop”" >
+<node_order><![CDATA[4]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="62925" name="Przenoszenie domyślnego &quot;new task&quot; z kolumny &quot;to do&quot; do &quot;doing&quot; za pomocą “drag&amp;drop”">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[25]]></externalid>
+	<fullexternalid><![CDATA[MC-7-25]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie czy poprawnie da się przenieść zadanie z jednej kolumny do drugiej</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klikamy zadanie &quot;new task&quot; w kolumnie &quot;to do&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>przeciągamy zadanie do kolumny &quot;doing&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Puszczamy przycisk myszy</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Zadanie poprawnie zostało przeniesione do innej kolumny</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62931" name="Przenoszenie domyślnych kolumny &quot;doing&quot; przed kolumnę &quot;to do&quot; za pomocą “drag&amp;drop”">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[26]]></externalid>
+	<fullexternalid><![CDATA[MC-7-26]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie czy można przemieścić kolumny względem siebie</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klikamy kolumne &quot;doing&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Przesuwamy kolumne w miejsce kolumny &quot;to do&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Puszcamy przycisk myszy</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Kolumna została poprawnie przemieszczona</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62939" name="Przenoszenie pomiędzy sobą domyślnego/utworzonego zadania w kolumnie &quot;done&quot; za pomocą “drag&amp;drop”">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[27]]></externalid>
+	<fullexternalid><![CDATA[MC-7-27]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie czy da sie przenieść zadanie względem jednej kolumny</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Przenosimy domyślne zadanie &quot;new task&quot; z kolumny &quot;to do&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Do kolumny &quot;done&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Tworzymy zadanie w kolumnie &quot;done&quot; klikamy button &quot;new task&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Wpisujemy nazwę &quot;torombo&quot; klikamy button &quot;ok&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>klikamy zadanie &quot;new task&quot; przenosząc je pod zadanie &quot;torombo&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Zadanie zostało poprawnie przeniesione</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="62945" name="Brak ograniczenia w liczbie znaków, kolumn czy zadań" >
+<node_order><![CDATA[5]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="62946" name="Sprawdzenie ilości znaków w tworzeniu kolumny">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[28]]></externalid>
+	<fullexternalid><![CDATA[MC-7-28]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzamy czy możemy wpisać więcej niż 20 liter</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klika button &quot;ADD NEW COLUMN&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wpisujemy 25 liter w pole tekstowe &quot;1234567890123456789012345&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Klikamy &quot;OK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Nazwa zawierajaca 25 liter wyswietliła sie poprawnie</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62955" name="Sprawdzenie ilości znaków w tworzeniu zadania">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[29]]></externalid>
+	<fullexternalid><![CDATA[MC-7-29]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzamy czy możemy wpisać więcej niż 20 liter</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klika button &quot;ADD TASK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wpisujemy 25 liter w pole tekstowe &quot;1234567890123456789012345&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Klikamy &quot;OK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Nazwa zawierajaca 25 liter wyswietliła sie poprawnie</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62961" name="Sprawdzenie ilości tworzonych kolumn">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[30]]></externalid>
+	<fullexternalid><![CDATA[MC-7-30]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzamy utworzenie 25 kolumn</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klikamy button &quot;ADD NEW COLUMN&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wpisujemy nazwę &quot;konmno&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Klikamy &quot;OK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Tymi 3 krokami tworzymy 25 kolumn</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Kolumny utworzyły się poprawnie</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62968" name="Sprawdzenie ilości tworzonych zadań">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[31]]></externalid>
+	<fullexternalid><![CDATA[MC-7-31]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzamy utworzenie 25 zadań</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klikamy button &quot;ADD TASK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wpisujemy nazwę &quot;tropnm&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Klikamy &quot;OK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Tymi 3 krokami tworzymy 25 zadań</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Zadania zostały utworzone poprawnie</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62977" name="Sprawdzenie znaków specjalnych w tworzeniu kolumny">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[32]]></externalid>
+	<fullexternalid><![CDATA[MC-7-32]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzamy przyjmowanie nak&oacute;w specjalnych w nazwie kolumny</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klika button &quot;ADD NEW COLUMN&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wpisujemy ciąg znak&oacute;w &quot;!@#$%^&amp;*()&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Klikamy &quot;OK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Kolumna utworzyła sie z podaną nazwą</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62985" name="Sprawdzenie znaków specjalnych w tworzeniu zadań">
+	<node_order><![CDATA[1005]]></node_order>
+	<externalid><![CDATA[33]]></externalid>
+	<fullexternalid><![CDATA[MC-7-33]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzamy przyjmowanie nak&oacute;w specjalnych w nazwie zadań</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klika button &quot;ADD TASK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wpisujemy ciąg znak&oacute;w &quot;)(*&amp;^%$#@!&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Klikamy &quot;OK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Zadanie wyświetlilo się z poprawną nazwą</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62991" name="Sprawdzenie czy utworzą się kolumny o tych samych nazwach">
+	<node_order><![CDATA[1006]]></node_order>
+	<externalid><![CDATA[34]]></externalid>
+	<fullexternalid><![CDATA[MC-7-34]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie tworzenia kolumn z tymi samymi nazwami</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klika button &quot;ADD NEW COLUMN&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wpisujemy ciąg znak&oacute;w &quot;Kolumna&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Klikamy &quot;OK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Powtarzamy wrzyskie 3 kroki</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Utworzyły się 2 kolumny z tą samą nazwą</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="62999" name="Sprawdzenie czy utworzą się zadania o tych samych nazwach">
+	<node_order><![CDATA[1007]]></node_order>
+	<externalid><![CDATA[35]]></externalid>
+	<fullexternalid><![CDATA[MC-7-35]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie tworzenia zadań z tymi samymi nazwami</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klika button &quot;ADD TASK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wpisujemy ciąg znak&oacute;w &quot;new task&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Klikamy przycisk &quot;OK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Powtarzamy jeszcze raz te trzy kroki</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Poprawnie wyświetliły się 2 zadania z tą samą nazwą</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="63008" name="Sprawdzenie edycji nazwy domyślnej kolumny &quot;done&quot;">
+	<node_order><![CDATA[1008]]></node_order>
+	<externalid><![CDATA[36]]></externalid>
+	<fullexternalid><![CDATA[MC-7-36]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzamy poprawność działania edycji nazwy kolumny</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klikamy nazwę kolumny &quot;done&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Nic się nie dzieję, poprawny brak edycji kolumny</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="63013" name="Sprawdzenie edycji domyślnego zadania &quot;new task&quot;">
+	<node_order><![CDATA[1009]]></node_order>
+	<externalid><![CDATA[37]]></externalid>
+	<fullexternalid><![CDATA[MC-7-37]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie edycji nazwy zadania</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klikamy nazwę zadania &quot;new task&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Nic się nie dzieje, poprawny brak edycji nazwy</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="63018" name="Sprawdzenie czy domyślna kolumna &quot;doing&quot; się usunie">
+	<node_order><![CDATA[1010]]></node_order>
+	<externalid><![CDATA[38]]></externalid>
+	<fullexternalid><![CDATA[MC-7-38]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie działania &quot;x&quot; w kolumnie &quot;doing&quot;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klikamy button &quot;x&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Kolumna poprawnie się usuneła</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="63025" name="Sprawdzenie czy domyślne zadanie &quot;new task&quot; się usunie">
+	<node_order><![CDATA[1011]]></node_order>
+	<externalid><![CDATA[39]]></externalid>
+	<fullexternalid><![CDATA[MC-7-39]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie działania &quot;x&quot; w zadaniu</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Klikamy button &quot;x&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Zadanie poprawnie się usuneło</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="63029" name="Działanie plików cookies" >
+<node_order><![CDATA[6]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="63030" name="Zapisywanie się plików cookies, po ponownym uruchomieniu przeglądarki">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[40]]></externalid>
+	<fullexternalid><![CDATA[MC-7-40]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzamy zapisywanie się plik&oacute;w cookies</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik wchodzi na stronę: https://kanbanboard.pl/</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Tworzy zadanie button &quot;ADD TASK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wpisue nazwę &quot;nomrocn&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Klika &quot;OK&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Wyłączenie przeglądarki</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Uruchamiamy ponownie przeglądarke</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Wchodzimy na stronę: https://kanbanboard.pl/</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[<p>Nasza operacja zapisała się w plikach cokkies, i wyświetliła się nam wcześniejsza operacja</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="63695" name="Responsywność strony" >
+<node_order><![CDATA[7]]></node_order>
+<details><![CDATA[]]></details> 
+</testsuite></testsuite>
